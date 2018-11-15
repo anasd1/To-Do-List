@@ -3,7 +3,7 @@ $(document).ready(
         $("#button").click(
             function(event) {
                 var add = $("input[name=itemName]").val();
-                $('ol').append('<li>' + add + '<button>Delete</button></li>');
+                $('ol').append('<li>' + add + '' + '<button>Delete</button></li>');
             });
 
         $("input[name=itemName]").keyup(function(event) {

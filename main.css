@@ -26,11 +26,11 @@ input {
 
 #button {
     display: inline-block;
-    background-color: #0988A9;
+    background-color: #66ff99;
     color: #ffffff;
     padding: 6px 15px;
     cursor: pointer;
-    border: 1px solid #0988A9;
+    border: 1px solid #ffffff;
     border-radius: 3px;
 }
 
