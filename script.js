@@ -12,6 +12,7 @@ $(document).ready(
             }
         });
 
+
         $(document).on('dblclick', 'li', function() {
             $(this).toggleClass('strike').fadeOut('slow');
         });
